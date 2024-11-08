@@ -4,12 +4,14 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+body {
+  background: white;
+}
 
 .header {
   width: 100%;
   background-size: cover;
   background-position: center;
-  background: white;
   color: black;
 }
 
@@ -26,14 +28,13 @@ header nav ul li {
   background-position: center;
 }
 h1 {
-  font-size: 60px;
-  padding: 50px 10px;
+  font-size: 42px;
+  line-height: 42px;
+  padding: 80px 10px;
   color: white;
   text-align: center;
 }
 .form {
-  background: white;
-  font-size: 30px;
   width: 50% 50%;
   padding: 10px;
   text-align: center;
@@ -61,4 +62,18 @@ h1 {
   padding: 8px;
   font-size: 12px;
   border-radius: 6px;
+}
+.signIn-form {
+  background: #191e3b;
+  color: white;
+  padding: 18px;
+  margin-top: 15px;
+  width: 50% 50%;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 8px;
+}
+.register {
+  margin-top: 10px;
+  font-size: 10px;
 }
