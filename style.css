@@ -10,12 +10,24 @@
   background-image: url(images/ai\ girl\ coding.png);
   background-size: cover;
   background-position: center;
+  background: white;
+  color: black;
 }
 
 header nav ul li {
-  background: white;
-  color: black;
   list-style: none;
   display: inline-block;
   margin: 10px 20px;
+}
+.first-page {
+  height: 50vh;
+  background-image: url("images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-size: 40px;
+  padding: 50px 10px;
+  color: white;
+  text-align: center;
 }
