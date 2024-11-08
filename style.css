@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-image: url(images/ai\ girl\ coding.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header nav ul li {
+  background: white;
+  color: black;
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+}
