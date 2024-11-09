@@ -118,3 +118,34 @@ small {
   font-size: 10px;
   font-weight: 900;
 }
+.dahlem {
+  font-size: small;
+}
+.detached {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+span button {
+  background: #57ca61;
+  border-radius: 5px;
+  padding: 4px;
+  border: 0;
+}
+.usual {
+  font-size: 10px;
+  font-weight: 800;
+}
+.reviews {
+  font-size: 8px;
+}
+.container-usual {
+  margin-bottom: 20px;
+}
+.amount {
+  font-size: 16px;
+  font-weight: 900;
+}
+.all-details {
+  font-size: 8px;
+}
