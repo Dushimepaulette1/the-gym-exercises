@@ -6,6 +6,8 @@
 }
 body {
   background: white;
+  display: block;
+  margin: 0 auto;
 }
 .header {
   width: 100%;
@@ -92,15 +94,14 @@ img {
 .weekend-trips {
   background-image: url("images/929486-0_2-1dlvrbo.avif");
   background-size: cover;
-  width: 100%;
   color: white;
   border-radius: 10px;
-  margin: 40px;
 }
 .all-weekend-trips {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 .heading-weekends {
   font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -119,6 +120,7 @@ small {
   font-weight: 900;
 }
 .dahlem {
+  margin-top: 10px;
   font-size: small;
 }
 .detached {
@@ -148,4 +150,17 @@ span button {
 }
 .all-details {
   font-size: 8px;
+}
+.section-6 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.holiday-homes-2024 {
+  margin-top: 30px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
 }
