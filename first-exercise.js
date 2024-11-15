@@ -2,15 +2,17 @@
 If the array is empty, return null.
 The array may contain strings of varying lengths.
 If there are multiple strings with the same longest length, return the first one. */
-function longestString(str){
-let longString = str[0];
-	if (str.length === 0){
-		return null
-	}
-	for (let i = 0; i < str.length; i++){
-		if (str[i].length > longString){
-			return str[i]
-		}
-	}
-	console.log(longestString(["paulette", "tesi", "Gloria"]);
-
+function longestString(str) {
+  if (str.length === 0) {
+    return null;
+  }
+  let longString = str[0];
+  for (let i = 1; i < str.length; i++) {
+    // we start from 1 beacause our longest string has been initialised to the first element of the array
+    if (str[i].length > longString.length) {
+      longString = str[i];
+    }
+  }
+  return longString;
+}
+console.log(longestString(["paulette", "tesi", "gloria"]));
