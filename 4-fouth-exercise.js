@@ -6,9 +6,6 @@
 //false if number is odd
 // odd when the number % 2 !== 0
 function isEven(number) {
-  if (number === "") {
-    return "Please enter a number";
-  }
   if (number % 2 === 0) {
     return true;
   } else if (number % 2 !== 0) {
