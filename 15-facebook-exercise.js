@@ -17,5 +17,10 @@ let facebookProfile = {
   postMessage: function (message) {
     this.messages.push(message);
   },
-  deleteMessage: function (index) {},
+  deleteMessage: function (index) {
+    this.messages.splice(index, 1); //removes elements from the provided index and removes only 1 item
+  },
+  addFriend: function () {
+    this.numberOfFriends++;
+  },
 };
