@@ -23,4 +23,15 @@ let facebookProfile = {
   addFriend: function () {
     this.numberOfFriends++;
   },
+  removeFriend: function () {
+    this.numberOfFriends--;
+  },
 };
+facebookProfile.postMessage("we love RnB");
+console.log(facebookProfile.messages);
+facebookProfile.deleteMessage(0);
+console.log(facebookProfile.messages);
+facebookProfile.addFriend();
+console.log(facebookProfile.numberOfFriends);
+facebookProfile.removeFriend();
+console.log(facebookProfile.numberOfFriends);
